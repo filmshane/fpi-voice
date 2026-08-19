@@ -1,0 +1,11 @@
+{
+  "type": "post_call_audio",
+  "event_timestamp": 1786970929,
+  "data": {
+    "agent_id": "agent_6201m06jgd6tf7arch24867h9a44",
+    "agent_name": "Morgan Receptionist",
+    "conversation_id": "conv_2001m07w8ej6fjatfdzesevq6ryj",
+    "user_id": "1457aa6d86d8b7d0ccc64d425680d7f6",
+    "full_audio": "<omitted base64 len=39228>"
+  }
+}

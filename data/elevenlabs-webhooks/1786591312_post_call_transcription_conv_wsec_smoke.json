@@ -1,0 +1,19 @@
+{
+  "type": "post_call_transcription",
+  "event_timestamp": 1786591312,
+  "data": {
+    "agent_id": "agent_3101kzw4yn2fehvtcdn131x9yj56",
+    "conversation_id": "conv_wsec_smoke",
+    "status": "done",
+    "analysis": {
+      "transcript_summary": "webhook secret smoke test",
+      "call_successful": "success"
+    },
+    "conversation_initiation_client_data": {
+      "dynamic_variables": {
+        "lead_id": "lead-1513-18th-st-nw-cleveland",
+        "customer_name": "Shane Miller"
+      }
+    }
+  }
+}

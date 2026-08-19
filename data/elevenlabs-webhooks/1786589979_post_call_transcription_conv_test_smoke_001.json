@@ -1,0 +1,37 @@
+{
+  "type": "post_call_transcription",
+  "event_timestamp": 1786589979,
+  "data": {
+    "agent_id": "agent_test_11labs",
+    "conversation_id": "conv_test_smoke_001",
+    "status": "done",
+    "transcript": [
+      {
+        "role": "agent",
+        "message": "Hi Shane"
+      },
+      {
+        "role": "user",
+        "message": "Hello"
+      }
+    ],
+    "analysis": {
+      "transcript_summary": "Demo call with Shane about 1513 18th St NW cash offer.",
+      "call_successful": "success",
+      "data_collection_results": {}
+    },
+    "conversation_initiation_client_data": {
+      "dynamic_variables": {
+        "lead_id": "lead-1513-18th-st-nw-cleveland",
+        "customer.name": "Shane Miller",
+        "first_name": "Shane",
+        "last_name": "Miller",
+        "phone_primary": "+14242790225"
+      }
+    },
+    "metadata": {
+      "call_duration_secs": 42,
+      "cost": 100
+    }
+  }
+}

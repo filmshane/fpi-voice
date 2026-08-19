@@ -1,0 +1,24 @@
+{
+  "description": "Retell AI POST /v2/create-web-call payload for FPI Alex",
+  "endpoint": "https://api.retellai.com/v2/create-web-call",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer $RETELL_API_KEY",
+    "Content-Type": "application/json"
+  },
+  "retell_request_body": {
+    "agent_id": "agent_deaec073f1969cc0341dbfa620",
+    "retell_llm_dynamic_variables": {
+      "customer_name": "John Doe",
+      "property_address": "123 Main St, Springfield, IL 62704",
+      "crm_summary": "Inbound lead from website form, asked about cash offer",
+      "lead_id": "lead_12345"
+    }
+  },
+  "notes": [
+    "All dynamic variable values MUST be strings.",
+    "Agent-required vars: customer_name, property_address, crm_summary, lead_id",
+    "FPI proxy: POST https://firstpropertyinvestment.us/api/voice/web-call/{lead_id}",
+    "Preview body: GET https://firstpropertyinvestment.us/api/voice/web-call/preview/{lead_id}"
+  ]
+}

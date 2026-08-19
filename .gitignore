@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.bak
+*.bak-*
+*.log
+__pycache__/
+.venv/
+node_modules/
+*.bin
+data/chroma/
+data/xai_access_token
+*.mp3
+.DS_Store

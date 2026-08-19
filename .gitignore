@@ -14,3 +14,4 @@ data/chroma/
 data/xai_access_token
 *.mp3
 .DS_Store
+data/elevenlabs-webhooks/
